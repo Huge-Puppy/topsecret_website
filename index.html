@@ -1,0 +1,290 @@
+
+
+
+
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154586101-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-154586101-1');
+    </script>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jared Lambert">
+    <title>Treasure Hunt</title>
+    <meta name="keywords" content="topsecret, topsecrethunts, treasure, hunt, utah, activites, logan, treasure hunt, scavenger hunt, scavenger, activity, adventure, clue, riddle, solve, code, cheap, date">
+<meta name="description" content="Exciting treasure hunts in Utah. Topsecret Treasure Hunts have the mystery and adventure to spice up your week.">
+
+
+    <meta property="og:title" content="Local Treasure Hunt"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://www.topsecrethunts.com/static/pages/profile_small.png"/>
+    <meta property="og:url" content="https://www.topsecrethunts.com"/>
+    <meta property="og:description" content="Enjoy the adventure of exciting treasure hunts in Northern Utah"/>
+    <meta property="og:determiner" content="a"/>
+
+    <!--BOOTSTRAP 4.3.1-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body id='body' class="d-flex flex-column">
+<script src="https://kit.fontawesome.com/094e49d1ce.js" crossorigin="anonymous"></script>
+
+    <main>
+
+  <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand  small-logo py-0" href="index.html"><img id='logo' class="" src="images/white_logo.png" alt="Topsecret hunts treasure hunt logo."></a>
+            <button type="button py-0 float-right" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" id="home-link">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item" id="faq-link">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item" id="hunts-link">
+                        <a class="nav-link" href="https://apps.apple.com/us/app/id1517174424">iOS</a>
+                    </li>
+                    <li class="nav-item" id="hunts-link">
+                        <a class="nav-link" href="https://play.google.com/store/apps/details?id=com.topsecrethunts">Android</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+        
+<script src="js/js.cookie.js"></script>
+<div id="top-pic"></div>
+<div id="page-content">
+    <div id="home-background" class="text-center mx-auto">
+        <picture>
+            <source media="(min-width: 900px)" srcset="images/winnerjune4.jpg" class="min-vh-80 max-vh-120 vw-100 ">
+            <source media="(max-width: 899px)" srcset="images/portrait_jared_2.png" class="vh-100 min-vw-90 max-vw-105">
+            <img id="mainimage" alt="Topsecret treasure chest is a hidden clue in this adventure." class="min-vh-80 max-vh-120 vw-100">
+        </picture>
+        <div class="col-sm-12 col-md-8 col-lg-6 mt-4 top-left" style="background: rgba(250, 250, 250, 0.5);">
+            <h4 class="text-center hook">
+                Install our treasure hunting app, Topsecret Hunts!
+            </h4>
+        </div>
+
+        <a class="home-button button1" href="https://apps.apple.com/us/app/id1517174424">Get the iOS App</a>
+        <a class="home-button2 button1" href="https://play.google.com/store/apps/details?id=com.topsecrethunts">Get the Android App</a>
+
+    </div>
+
+
+
+           <!-- what -->
+        <div class="services text-center pt-5 pb-lg-5" id="what">
+                <div class="container py-xl-5 py-lg-3">
+                        <h2 class="section-title text-center text-bl mb-sm-5 mb-4">Walkthrough</h2>
+                        <div class="row ser-styles ser-styles-res">
+                                <div class="col-lg-4">
+                                        <div class="abt-block">
+                                                <div class="dodecagon">
+                                                        <div class="dodecagon-in">
+                                                                <div class="dodecagon-bg">
+                                                                        <span class="fas fa-user-circle"></span>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <h3>Download the App</h3>
+                                                <p></p>
+                                        </div>
+                                </div>
+                                <div class="col-lg-4">
+                                        <div class="abt-block border-back2">
+                                                <div class="dodecagon">
+                                                        <div class="dodecagon-in">
+                                                                <div class="dodecagon-bg back2">
+                                                                        <span class="fab fa-paypal"></span>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <h3>Register for a Hunt</h3>
+                                                <p></p>
+                                        </div>
+                                </div>
+                                <div class="col-lg-4">
+                                        <div class="abt-block border-back3">
+                                                <div class="dodecagon">
+                                                        <div class="dodecagon-in">
+                                                                <div class="dodecagon-bg back3">
+                                                                        <span class="fas fa-users"></span>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <h3>Invite your Friends</h3>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="row ser-styles">
+                                <div class="col-lg-4">
+                                                <div class="abt-block border-back4">
+                                                        <div class="dodecagon">
+                                                                <div class="dodecagon-in">
+                                                                        <div class="dodecagon-bg back4">
+                                                                                <span class="fas fa-mobile"></span>
+                                                                        </div>
+                                                                </div>
+                                                        </div>
+                                                        <h3>Solve the Clue</h3>
+                                                </div>
+                                </div>
+                                <div class="col-lg-4">
+                                        <div class="abt-block border-back5">
+                                                <div class="dodecagon">
+                                                        <div class="dodecagon-in">
+                                                                <div class="dodecagon-bg back5">
+                                                                        <span class="fas fa-map-marked-alt"></span>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <h3>Find the Sign</h3>
+                                                <p></p>
+                                        </div>
+                                </div>
+                                <div class="col-lg-4">
+                                        <div class="abt-block border-back6">
+                                                <div class="dodecagon">
+                                                        <div class="dodecagon-in">
+                                                                <div class="dodecagon-bg back6">
+                                                                        <span class="fas fa-qrcode"></span>
+                                                                </div>
+                                                        </div>
+                                                </div>
+                                                <h3>Scan it, Repeat.</h3>
+                                                <p></p>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <!-- //what -->
+
+
+    <div class="text-center home-section bg-dark text-light m-0 pt-5 pb-5 col-12">
+        <div class='container top-spacing bottom-spacing'>
+            <div class="blockquote">
+                <h2><i>"Topsecret Hunts are Utah's most creative and challenging treasure hunts."</i></h2>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="">
+        <div id="About" class="home-section bg-light text-dark text-center col-12 mt-0 mb-0">
+            <div class="">
+                <div class="text-center pb-4">
+                    <h2 class="section-title">About</h2>
+                </div>
+                <div class="">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-5 ml-auto mr-auto">
+                            <div class="row my-auto">
+                                <img src="images/shark_chest.png" alt="Topsecret treasure chest is a hidden clue in this adventure." class="w-100 img-fluid cool-pic">
+                            </div>
+                            <div class="row my-auto">
+                                <h4 class="pic-descript px-4">
+                                    Explore and compete with a Monthly Hunt or schedule private treasure
+                                    hunts for your parties, family reunions, etc.
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="h-100"></div>
+                        <div class="col-sm-12 col-lg-5 ml-auto mr-auto">
+                            <div class="row my-auto">
+                                <img src="images/bigfoot_sign.png" alt="Topsecret treasure hunt clue hidden behind a sign." class="w-100 img-fluid">
+                            </div>
+                            <div class="row my-auto">
+                                <h4 class="pic-descript px-4">
+                                    Follow the clue. Find the Topsecret Hunts
+                                    <a class="text-success" href="" data-toggle="modal" data-target="#mymodal">signs</a>.
+                                    Scan the QR code on the sign to earn points and move to the next clue! If you get
+                                    stuck, give up points for a hint!
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-5 ml-auto mr-auto">
+                            <div class="row my-auto">
+                                <img src="images/mutual_landscape.png" alt="Two lovebirds on a treasure hunt adventure." class="w-100 img-fluid cool-pic">
+                            </div>
+                            <div class="row my-auto">
+                                <h4 class="pic-descript px-4">
+                                    Sign up, invite friends to join your team, and get your game face on.
+                                    You can sign up anytime before or during the hunt, and you can hunt anytime within the open window.
+
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="h-100"></div>
+                        <div class="col-sm-12 col-lg-5 ml-auto mr-auto">
+                            <div class="row my-auto">
+                                <img src="images/madelyn_landscape.png" alt="Two women finding a treasure chest." class="w-100 img-fluid">
+                            </div>
+                            <div class="row my-auto">
+                                <h4 class="pic-descript px-4">
+                                    Winners of our treasure hunts gain respect and notoriety on the top of the
+                                    leaderboard. 
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!--        <div class="bg-light col-sm-12 col-med-8 col-lg-8 text-center mx-auto bottom-spacing">-->
+<!--            <h2 class="pb-4 section-title">How it Works</h2>-->
+<!--            <div class="text-center embed-responsive  embed-responsive-16by9">-->
+<!--                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2b6EAPWpRYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+
+<script>
+    var e = document.getElementById("body");
+    e.id='home-body'
+    var d = document.getElementById("home-link");
+    d.className += " active";
+  </script>
+    </main>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

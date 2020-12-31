@@ -1,0 +1,177 @@
+
+
+
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154586101-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-154586101-1');
+    </script>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Jared Lambert">
+    <title>Treasure Hunt</title>
+    <meta name="keywords" content="topsecret, topsecrethunts, treasure, hunt, utah, activites, logan, treasure hunt, scavenger hunt, scavenger, activity, adventure, clue, riddle, solve, code, cheap, date">
+<meta name="description" content="Exciting treasure hunts in Utah. Topsecret Treasure Hunts have the mystery and adventure to spice up your week.">
+
+
+    <meta property="og:title" content="Local Treasure Hunt"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="https://www.topsecrethunts.com/static/pages/profile_small.png"/>
+    <meta property="og:url" content="https://www.topsecrethunts.com"/>
+    <meta property="og:description" content="Enjoy the adventure of exciting treasure hunts in Northern Utah"/>
+    <meta property="og:determiner" content="a"/>
+
+    <!--BOOTSTRAP 4.3.1-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body id='body' class="d-flex flex-column">
+<script src="https://kit.fontawesome.com/094e49d1ce.js" crossorigin="anonymous"></script>
+
+    <main>
+
+  <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand  small-logo py-0" href="index.html"><img id='logo' class="" src="images/white_logo.png" alt="Topsecret hunts treasure hunt logo."></a>
+            <button type="button py-0 float-right" class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" id="home-link">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item" id="faq-link">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item" id="hunts-link">
+                        <a class="nav-link" href="https://apps.apple.com/us/app/id1517174424">iOS</a>
+                    </li>
+                    <li class="nav-item" id="hunts-link">
+                        <a class="nav-link" href="https://play.google.com/store/apps/details?id=com.topsecrethunts">Android</a>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+<div id="faq" class="med-font bg-light text-dark m-0 p-0 col-12">
+    <div class='container top-spacing bottom-spacing'>
+	    <h2 class="text-center page-title pb-4">FAQ</h2>
+
+        <i class="fas fa-plus-square"></i>
+        <span><strong>How many people can I have on my team?</strong></span>
+        <p class="ml-4">
+            You can have as many team members as you'd like. Every team member will get points for clues you find.
+        </p>
+
+        <i class="fas fa-plus-square"></i>
+        <span><strong>What will I need to bring with me?</strong></span>
+        <p class="ml-4">
+            You'll need a smartphone to scan the signs and to get clues from the website. A pencil and paper will help towards solving the clues.
+        </p>
+
+        <i class="fas fa-plus-square"></i>
+        <span><strong>What am I looking for?</strong></span>
+        <p class="ml-4">
+            You are looking for small, colored signs with our diamond logo on them. They could be out in the open or
+            hidden in a treasure chest. See <a class="text-success" href="" data-toggle="modal" data-target="#mymodal">this</a> picture.
+            There will be a QR code on the signs.
+        </p>
+
+        <i class="fas fa-plus-square"></i>
+        <span><strong>How far away will the clues be?</strong></span>
+        <p class="ml-4">
+            You can find the location in the hunt description. All the clues will be within the specified region. For
+            example, if the treasure hunt is in Logan, UT, all of the clues will be within the borders of Logan, UT.
+        </p>
+
+        <i class="fas fa-plus-square"></i>
+        <span><strong>Can children participate?</strong></span>
+        <p class="ml-4">
+            Kids really enjoy looking for signs in our treasure hunts! They will be able to participate more in solving
+            clues if you do a treasure hunt with a low difficulty.
+        </p>
+
+        <i class="fas fa-plus-square"></i>
+        <span><strong>How long will a treasure hunt take?</strong></span>
+        <p class="ml-4">
+            A hunt with 5 clues takes on average about 1.5 hours. This varies based on group size and hunt difficulty.
+        </p>
+
+        <i class="fas fa-plus-square"></i>
+        <span><strong>Do you do events?</strong></span>
+        <p class="ml-4">
+            Yes! We host treasure hunts for birthdays, corporate events, parties... you name it! Contact alpha@topsecrethunts.com for more info.
+        </p>
+
+        <i class="fas fa-plus-square"></i>
+        <span><strong>Is this a great date night?</strong></span>
+        <p class="ml-4">
+            Absolutely! Cheap and original. Your date will love a treasure hunt!
+        </p>
+
+        <i class="fas fa-plus-square"></i>
+        <span><strong>How do I prepare for a treasure hunt?</strong></span>
+        <p class="ml-4">
+            Re-watch national treasure, practice your code breaking skills, and say a prayer.
+        </p>
+
+        <div class="modal fade" id="mymodal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content bg-dark text-light">
+                    <div class="modal-header">
+                        <h5 class="modal-title">What to Look For</h5>
+                        <button type="button" class="close text-light" data-dismiss="modal"><span>&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class=""><img src="images/profile_small.jpg" alt="Topsecret treasure hunt treasure chest and clues for are for our adventures in Utah." class="img-fluid"></div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+  var e = document.getElementById("body");
+  e.id='home-body'
+  var d = document.getElementById("faq-link");
+  d.className += " active";
+</script>
+
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
